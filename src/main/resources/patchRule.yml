@@ -1,0 +1,76 @@
+# 增量抽取需求：
+# 1、生成增量包的同时，生成Excel的增量清单
+# 2、环境相关的文件处理：部署包中不体现，在增量清单中体现
+
+# 匹配路径并转换 匹配srcPath后，转换module路径
+pathConvert:
+  # 匹配具体文件
+  specific:
+  # 包含路径匹配
+  contains:
+    /src/main/config/: conf/
+    /src/main/scripts/: bin/
+    /src/main/webapp/: webapp/
+    /src/main/java/: lib/
+    /src/main/config/: lib/
+    /src/main/resources: lib/
+  # 前缀路径匹配
+#  prefix:
+  # 后缀路径匹配
+  surfix:
+    .jar: lib/
+
+# 要过滤掉的路径
+pathExclued:
+  specific:
+  contains:
+    - /src/test/
+    - /src/main/rules/META-INF/
+  prefix:
+  surfix:
+    - assembly.xml
+    - .txt
+    - .bak
+    - .sql
+    - .xls
+    - .xlsx
+    - .doc
+    - .docx
+    - .pdf
+    - .md
+    - .log
+    - .yml
+    - .iml
+    - .classpath
+    - .project
+    - .json
+    - .xmind
+    - .cdm
+    - .ftl
+    - .trg
+    - .er
+    - .jar
+    - .gif
+    - .jpg
+    - .png
+
+# 仅在增量清单中体现，不进入增量部署包
+listOnly:
+  specific:
+  contains:
+    - /src/main/config/ext/
+    - /src/main/config/business/
+  prefix:
+  surfix: [.sh, .bat, .properties, logback.xml]
+
+# 指定目录下全量抽取（仅抽取文件，不递归子目录）
+# (1) 源目录抽取到指定目标目录：
+#   srcFolder：destFolder
+patchFull:
+  conf/busiRule: conf/busiRule
+  conf/check: conf/check
+  conf/checkRule: conf/checkRule
+  conf/dbRule: conf/dbRule
+  conf/mapping: conf/mapping
+  conf/trace: conf/trace
+
