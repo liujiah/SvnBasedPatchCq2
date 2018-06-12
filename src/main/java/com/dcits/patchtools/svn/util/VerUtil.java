@@ -67,9 +67,11 @@ public class VerUtil {
     }
 
     public static void main(String[] args) {
-        String filePath="D://baktmp//version.properties";
-        System.out.println(getVersionFile("accounting",filePath));
-        System.out.println(getVersionFile("ensemble",filePath));
+
+        getVersionFile(args[0],args[1]);
+        //String filePath="D://baktmp//version.properties";
+        //System.out.println(getVersionFile("accounting",filePath));
+        //System.out.println(getVersionFile("ensemble",filePath));
     }
 
 }
