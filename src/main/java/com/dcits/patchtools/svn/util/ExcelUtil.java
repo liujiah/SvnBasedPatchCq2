@@ -30,7 +30,7 @@ public class ExcelUtil {
      * @param map
      * @param path
      */
-    public static void genExcel(Map<LogInfo, Set<String>> map, String path, String patchFlag) {
+    public static void genExcel(Map<LogInfo, Set<String>> map, String path, String patchFlag,String xmlModuleSurfix) {
         //获取当前时间
         SimpleDateFormat df = new SimpleDateFormat("yyyyMMddHHmmss");
         String date = df.format(new Date());
@@ -38,7 +38,7 @@ public class ExcelUtil {
         //存储路径--获取桌面位置
         //存储Excel的路径
         path = path.endsWith(File.separator) ? path : (path + File.separator);
-        String excelName = path + "送测清单_" + patchFlag + "_" + date + ".xlsx";
+        String excelName = path + "送测清单_" + patchFlag + "_" + date +"_"+xmlModuleSurfix+ ".xlsx";
         logger.info(excelName);
         try {
             // 创建工作薄

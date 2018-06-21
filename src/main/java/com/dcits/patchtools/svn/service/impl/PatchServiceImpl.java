@@ -121,7 +121,7 @@ public class PatchServiceImpl implements PatchService {
         String patchFlag = versionFrom + "-" + (versionTo == -1 ? "E" : versionTo);
         XmlUtil.entity2XmlFile(fileBlameList, fileName);
         logger.info("开始生成送测清单...");
-        ExcelUtil.genExcel(logInfoMap, baseDir + excelDir, patchFlag);
+        ExcelUtil.genExcel(logInfoMap, baseDir + excelDir, patchFlag,xmlModuleSurfix);
         return true;
     }
 
