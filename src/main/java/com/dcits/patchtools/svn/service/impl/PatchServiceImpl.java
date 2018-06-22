@@ -8,6 +8,7 @@ import com.dcits.patchtools.svn.service.PathRuleService;
 import com.dcits.patchtools.svn.service.SvnService;
 import com.dcits.patchtools.svn.util.DateUtil;
 import com.dcits.patchtools.svn.util.ExcelUtil;
+import com.dcits.patchtools.svn.util.TellerUtil;
 import com.dcits.patchtools.svn.util.XmlUtil;
 import lombok.Getter;
 import lombok.Setter;
@@ -122,6 +123,8 @@ public class PatchServiceImpl implements PatchService {
         XmlUtil.entity2XmlFile(fileBlameList, fileName);
         logger.info("开始生成送测清单...");
         ExcelUtil.genExcel(logInfoMap, baseDir + excelDir, patchFlag,xmlModuleSurfix);
+        logger.info("开始TELLER抽取增量判断...");
+        TellerUtil.genFile(fileBlameList,baseDir + excelDir+"/RUNALL/");
         return true;
     }
 
