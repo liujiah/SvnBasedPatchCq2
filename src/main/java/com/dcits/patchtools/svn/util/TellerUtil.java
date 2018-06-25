@@ -25,7 +25,7 @@ public class TellerUtil {
         for (FileBlame model : list) {
             if(model.getSrcPath().indexOf(tl1)>0){
                 String[] arrName=model.getSrcPath().split("/");
-                strName = "SmartTeller9\\tran\\"+arrName[8]+"\\"+arrName[9]+".jar";
+                strName = "SmartTeller9\\trans\\"+arrName[8]+"\\"+arrName[9]+".jar";
             }
             set.add(strName);
         }
