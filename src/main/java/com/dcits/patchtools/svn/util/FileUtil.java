@@ -214,7 +214,24 @@ public class FileUtil {
             logger.info(e.getMessage() + " : " + e.getCause());
         }
     }
-
+    public static void writeFileTeller(String writeFile, Set<String> content) {
+        File file = new File(writeFile);
+        if (file.exists() && file.isFile()) {
+            //  file.delete();
+        }
+        /* 输出数据 */
+        try {
+            BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(
+                    new FileOutputStream(file,true), "UTF-8"));
+            for (String line : content) {
+                bw.write(line);
+                bw.newLine();
+            }
+            bw.close();
+        } catch (Exception e) {
+            logger.info(e.getMessage() + " : " + e.getCause());
+        }
+    }
     /**
      * 删除一个目录（若目录非空，则递归删除其子目录及文件）
      *

@@ -38,7 +38,7 @@ public class TellerUtil {
         logger.info("fileFullName:"+fileFullName);
         Set<String> content= patchFileReader(list);
        if(content.size()>0){
-           FileUtil.writeFile(fileFullName,content);
+           FileUtil.writeFileTeller(fileFullName,content);
        }
     }
 
