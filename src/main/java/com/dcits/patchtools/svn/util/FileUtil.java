@@ -223,6 +223,7 @@ public class FileUtil {
         try {
             BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(
                     new FileOutputStream(file,true), "UTF-8"));
+            bw.newLine();
             for (String line : content) {
                 bw.write(line);
                 bw.newLine();
