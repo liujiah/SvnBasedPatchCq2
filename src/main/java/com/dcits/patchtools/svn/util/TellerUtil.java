@@ -66,7 +66,7 @@ public class TellerUtil {
         Set<String> deleteSet = new HashSet<>();
         String yamlSource = filepath +"teller.yml";
         YamlHelper.yamlPaser(yamlSource, patchSet, matchSet, deleteSet);
-        logger.info("patchFileReader_deletelist 0: " +str);
+        logger.info("patchFileReader_deletelist  0: " +str);
         for (String list : deleteSet) {
             if(str.indexOf(list)>0){
                 logger.info("patchFileReader_deletelist1: " +list);
