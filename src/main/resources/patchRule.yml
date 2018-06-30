@@ -8,17 +8,17 @@ pathConvert:
   specific:
   # 包含路径匹配
   contains:
-    /src/main/config/: conf/
-    /src/main/scripts/: bin/
-    /src/main/webapp/: webapp/
-    /src/main/java/: lib/
-    /src/main/config/: lib/
-    /src/main/resources: lib/
+     /src/main/config/: conf/
+     /src/main/scripts/: bin/
+  #   /src/main/webapp/: webapp/
+   #  /src/main/java/: lib/
+    # /src/main/config/: lib/
+    # /src/main/resources: lib/
   # 前缀路径匹配
 #  prefix:
   # 后缀路径匹配
   surfix:
-    .jar: lib/
+  #   .jar: lib/
 
 # 要过滤掉的路径
 pathExclued:
@@ -29,7 +29,7 @@ pathExclued:
   prefix:
   surfix:
     - assembly.xml
-    - .txt
+   # - .txt
     - .bak
     - .sql
     - .xls

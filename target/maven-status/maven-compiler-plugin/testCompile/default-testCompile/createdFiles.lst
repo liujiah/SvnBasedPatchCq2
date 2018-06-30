@@ -1,0 +1,8 @@
+com\dcits\patchtools\svn\util\TellerUtilTest.class
+com\dcits\patchtools\svn\util\Md5HelperTest.class
+com\dcits\patchtools\svn\service\impl\SvnServiceImplTest.class
+com\dcits\patchtools\svn\service\impl\PathRuleServiceImplTest.class
+com\dcits\patchtools\MainTest.class
+com\dcits\patchtools\svn\util\YamlTest.class
+com\dcits\patchtools\svn\service\impl\PatchServiceImplTest.class
+com\dcits\patchtools\svn\TestBase.class

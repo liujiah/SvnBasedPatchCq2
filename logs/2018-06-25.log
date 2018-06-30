@@ -1,0 +1,13 @@
+2018-06-25 09:22:05.508 [main] INFO  com.dcits.patchtools.svn.util.TellerUtil - fileFullName:d://app_20180625.txt
+2018-06-25 09:22:05.513 [main] INFO  com.dcits.patchtools.svn.util.TellerUtil - 解析后清单数目: 2
+2018-06-25 09:22:33.899 [main] INFO  com.dcits.patchtools.svn.util.TellerUtil - fileFullName:d://app_20180625.txt
+2018-06-25 09:22:33.903 [main] INFO  com.dcits.patchtools.svn.util.TellerUtil - 解析后清单数目: 2
+2018-06-25 09:45:23.604 [main] INFO  com.dcits.patchtools.svn.util.TellerUtil - fileFullName:d://app_20180625.txt
+2018-06-25 09:45:23.610 [main] INFO  com.dcits.patchtools.svn.util.TellerUtil - 解析后清单数目: 2
+2018-06-25 09:46:11.669 [main] INFO  com.dcits.patchtools.svn.util.TellerUtil - fileFullName:d://app_20180625.txt
+2018-06-25 09:46:11.676 [main] INFO  com.dcits.patchtools.svn.util.TellerUtil - 解析后清单数目: 2
+2018-06-25 09:46:36.524 [main] INFO  com.dcits.patchtools.svn.util.TellerUtil - fileFullName:d://app_20180625.txt
+2018-06-25 09:46:36.529 [main] INFO  com.dcits.patchtools.svn.util.TellerUtil - 解析后清单数目: 2
+2018-06-25 23:28:59.993 [main] INFO  com.dcits.patchtools.svn.TestBase - true
+2018-06-25 23:30:19.313 [main] INFO  com.dcits.patchtools.svn.TestBase - true
+2018-06-25 23:36:46.348 [main] INFO  com.dcits.patchtools.svn.TestBase - true

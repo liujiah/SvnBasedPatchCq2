@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns="http://www.springframework.org/schema/beans"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!--引入配置属性文件 -->
+    <context:property-placeholder location="classpath*:svn.properties"/>
+    <context:component-scan base-package="com.dcits.patchtools.svn"/>
+
+    <import resource="classpath*:confContext.xml"/>
+
+    <!-- 加载规则文件 -->
+    <bean id="yamlMap" class="org.springframework.beans.factory.config.YamlMapFactoryBean">
+        <property name="resources" value="classpath*:patchRule.yml"/>
+    </bean>
+
+    <!-- 规则类加载 -->
+    <bean id="pathRuleService" class="com.dcits.patchtools.svn.service.impl.PathRuleServiceImpl">
+        <property name="yamlMap" ref="yamlMap"/>
+    </bean>
+
+    <!-- 分发执行配置 -->
+    <bean id="patchHandler" class="com.dcits.patchtools.svn.PatchHandler">
+        <property name="patchServices">
+            <list>
+                <!-- 当有多套svn地址，每一套PatchService的id在此注册 -->
+                <ref bean="patchService"/>
+            </list>
+        </property>
+        <property name="yamlConf" ref="yamlMap"/>
+        <property name="yamlPath" value="${patch.yml.dir}"/>
+        <property name="yamlSurfix" value="${patch.yml.surfix}"/>
+        <property name="targetPath" value="${patch.target.dir}"/>
+        <property name="targetSrcPath" value="${patch.src.dir}"/>
+        <property name="patchTmpFolderName" value="${patch.tmp.folder.name}"/>
+        <property name="patchFolderName" value="${patch.folder.name}"/>
+        <property name="patchZipName" value="${patch.zip.name}"/>
+        <property name="delFileName" value="${deleteFile.name}"/>
+        <property name="patchVerName" value="${patch.version.dir}"/>
+    </bean>
+</beans>

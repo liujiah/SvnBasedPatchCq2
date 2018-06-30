@@ -1,0 +1,1524 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2b07439f-2ddf-4909-b978-2b6608c45707" name="Default" comment="增量xls文件名修复">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/dcits/patchtools/svn/util/TellerUtilTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/patchRule.yml" afterPath="$PROJECT_DIR$/src/main/resources/patchRule.yml" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/svn.properties" afterPath="$PROJECT_DIR$/src/main/resources/svn.properties" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/dcits/patchtools/svn/service/impl/PathRuleServiceImplTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/dcits/patchtools/svn/service/impl/PathRuleServiceImplTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/svn.properties" afterPath="$PROJECT_DIR$/src/test/resources/svn.properties" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/svnPatchTool$PatchServiceImplTest.coverage" NAME="PatchServiceImplTest Coverage Results" MODIFIED="1529596481090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.dcits.patchtools.svn.service.impl.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="PatchHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dcits/patchtools/svn/PatchHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="23">
+              <caret line="53" column="21" lean-forward="false" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PatchService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dcits/patchtools/svn/service/PatchService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dcits/patchtools/svn/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-184">
+              <caret line="39" column="66" lean-forward="false" selection-start-line="39" selection-start-column="66" selection-end-line="39" selection-end-column="66" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PatchServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dcits/patchtools/svn/service/impl/PatchServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="421">
+              <caret line="126" column="68" lean-forward="false" selection-start-line="126" selection-start-column="62" selection-end-line="126" selection-end-column="68" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="svn.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/svn.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="98">
+              <caret line="27" column="26" lean-forward="false" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="patchRule.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/patchRule.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="23" column="11" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PathRuleServiceImplTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/dcits/patchtools/svn/service/impl/PathRuleServiceImplTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="506">
+              <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TellerUtil.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dcits/patchtools/svn/util/TellerUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="248">
+              <caret line="68" column="48" lean-forward="false" selection-start-line="68" selection-start-column="48" selection-end-line="68" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dcits/patchtools/svn/util/FileUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="327">
+              <caret line="225" column="25" lean-forward="true" selection-start-line="225" selection-start-column="25" selection-end-line="225" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="YamlHelper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dcits/patchtools/svn/util/YamlHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="38" column="62" lean-forward="false" selection-start-line="38" selection-start-column="52" selection-end-line="38" selection-end-column="62" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>entity2XmlFile</find>
+      <find>genExcel</find>
+      <find>logInfoMap</find>
+      <find>pathRuleService</find>
+      <find>YamlMapFactoryBean</find>
+      <find>resources</find>
+      <find>pathExcluedMap</find>
+      <find>patchFileReader</find>
+      <find>解析后清单数目</find>
+      <find>System</find>
+      <find>getAllCommitHistory</find>
+      <find>handleLogEntry</find>
+      <find>excelDir</find>
+      <find>pathConvert</find>
+      <find>FileUtil</find>
+      <find>writeFile</find>
+      <find>YamlHelper</find>
+      <find>pathExclued</find>
+      <find>yamlPath</find>
+      <find>patchExecute</find>
+      <find>patchFull</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/test2.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dcits/patchtools/svn/util/ExcelUtil.java" />
+        <option value="$PROJECT_DIR$/target/classes/svn.properties" />
+        <option value="$PROJECT_DIR$/target/classes/patchRule.yml" />
+        <option value="$PROJECT_DIR$/src/test/resources/svn.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/svn.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dcits/patchtools/svn/dao/SvnDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dcits/patchtools/svn/service/impl/PatchServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/patchRule.yml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/dcits/patchtools/svn/service/impl/PathRuleServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dcits/patchtools/svn/util/FileUtil.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/dcits/patchtools/svn/util/TellerUtilTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dcits/patchtools/svn/util/TellerUtil.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\baktmp\repository" />
+        <option name="mavenHome" value="D:/soft/maven-339" />
+        <option name="userSettingsFile" value="D:\soft\maven-339\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="svn_patchtools" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="svn_patchtools" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="svn_patchtools" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="911" />
+    <option name="y" value="58" />
+    <option name="width" value="1400" />
+    <option name="height" value="992" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="svnPatchTool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SvnBasedPatchCq2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="svnPatchTool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SvnBasedPatchCq2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="svnPatchTool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SvnBasedPatchCq2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="svnPatchTool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SvnBasedPatchCq2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="svnPatchTool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SvnBasedPatchCq2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="svn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="svnPatchTool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SvnBasedPatchCq2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="svn" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="svnPatchTool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SvnBasedPatchCq2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="svnPatchTool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SvnBasedPatchCq2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="svnPatchTool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SvnBasedPatchCq2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="patchtools" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="svnPatchTool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SvnBasedPatchCq2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="patchtools" type="462c0819:PsiDirectoryNode" />
+              <item name="svn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="svnPatchTool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SvnBasedPatchCq2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="patchtools" type="462c0819:PsiDirectoryNode" />
+              <item name="svn" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="svnPatchTool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SvnBasedPatchCq2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="patchtools" type="462c0819:PsiDirectoryNode" />
+              <item name="svn" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="svnPatchTool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SvnBasedPatchCq2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="svnPatchTool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="svnPatchTool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: commons-io:commons-io:2.5" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="svnPatchTool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: commons-io:commons-io:2.5" type="70bed36:NamedLibraryElementNode" />
+              <item name="commons-io-2.5.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="svnPatchTool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: commons-io:commons-io:2.5" type="70bed36:NamedLibraryElementNode" />
+              <item name="commons-io-2.5.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="io" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="svnPatchTool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.commons:commons-collections4:4.1" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="svnPatchTool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.commons:commons-collections4:4.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="commons-collections4-4.1.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="svnPatchTool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.commons:commons-collections4:4.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="commons-collections4-4.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="collections4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="svnPatchTool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.commons:commons-lang3:3.4" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="svnPatchTool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.commons:commons-lang3:3.4" type="70bed36:NamedLibraryElementNode" />
+              <item name="commons-lang3-3.4.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="svnPatchTool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.commons:commons-lang3:3.4" type="70bed36:NamedLibraryElementNode" />
+              <item name="commons-lang3-3.4.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="lang3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="svnPatchTool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.commons:commons-lang3:3.4" type="70bed36:NamedLibraryElementNode" />
+              <item name="commons-lang3-3.4.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="lang3" type="462c0819:PsiDirectoryNode" />
+              <item name="builder" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="svnPatchTool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.commons:commons-lang3:3.4" type="70bed36:NamedLibraryElementNode" />
+              <item name="commons-lang3-3.4.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="lang3" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="svnPatchTool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.commons:commons-lang3:3.4" type="70bed36:NamedLibraryElementNode" />
+              <item name="commons-lang3-3.4.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="lang3" type="462c0819:PsiDirectoryNode" />
+              <item name="event" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="svnPatchTool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.commons:commons-lang3:3.4" type="70bed36:NamedLibraryElementNode" />
+              <item name="commons-lang3-3.4.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="lang3" type="462c0819:PsiDirectoryNode" />
+              <item name="exception" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="svnPatchTool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.commons:commons-lang3:3.4" type="70bed36:NamedLibraryElementNode" />
+              <item name="commons-lang3-3.4.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="lang3" type="462c0819:PsiDirectoryNode" />
+              <item name="math" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="svnPatchTool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.commons:commons-lang3:3.4" type="70bed36:NamedLibraryElementNode" />
+              <item name="commons-lang3-3.4.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="lang3" type="462c0819:PsiDirectoryNode" />
+              <item name="mutable" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="svnPatchTool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.commons:commons-lang3:3.4" type="70bed36:NamedLibraryElementNode" />
+              <item name="commons-lang3-3.4.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="lang3" type="462c0819:PsiDirectoryNode" />
+              <item name="reflect" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="svnPatchTool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.commons:commons-lang3:3.4" type="70bed36:NamedLibraryElementNode" />
+              <item name="commons-lang3-3.4.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="lang3" type="462c0819:PsiDirectoryNode" />
+              <item name="text" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.TellerUtilTest">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration name="PatchServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.dcits.patchtools.svn.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="svnPatchTool" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.dcits.patchtools.svn.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.dcits.patchtools.svn.service.impl.PatchServiceImplTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="PathRuleServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.dcits.patchtools.svn.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="svnPatchTool" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.dcits.patchtools.svn.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.dcits.patchtools.svn.service.impl.PathRuleServiceImplTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="PathRuleServiceImplTest.pathConvert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.dcits.patchtools.svn.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="svnPatchTool" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.dcits.patchtools.svn.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.dcits.patchtools.svn.service.impl.PathRuleServiceImplTest" />
+      <option name="METHOD_NAME" value="pathConvert" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="TellerUtilTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.dcits.patchtools.svn.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="svnPatchTool" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.dcits.patchtools.svn.util" />
+      <option name="MAIN_CLASS_NAME" value="com.dcits.patchtools.svn.util.TellerUtilTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="YamlTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.dcits.patchtools.svn.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="svnPatchTool" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.dcits.patchtools.svn.util" />
+      <option name="MAIN_CLASS_NAME" value="com.dcits.patchtools.svn.util.YamlTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.PatchServiceImplTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.YamlTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TellerUtilTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.PathRuleServiceImplTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.PathRuleServiceImplTest.pathConvert" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TellerUtilTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.PathRuleServiceImplTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.PathRuleServiceImplTest.pathConvert" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.PatchServiceImplTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.YamlTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2b07439f-2ddf-4909-b978-2b6608c45707" name="Default" comment="" />
+      <created>1528766302848</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1528766302848</updated>
+      <workItem from="1528766306341" duration="2966000" />
+      <workItem from="1529587406747" duration="1240000" />
+      <workItem from="1529593910179" duration="1642000" />
+      <workItem from="1529595585210" duration="34144000" />
+    </task>
+    <task id="LOCAL-00001" summary="111">
+      <created>1528768031707</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1528768031707</updated>
+    </task>
+    <task id="LOCAL-00002" summary="增量xls文件名修复">
+      <created>1529591316193</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1529591316193</updated>
+    </task>
+    <task id="LOCAL-00003" summary="自动生成TELLER增量app_日期.txt文件">
+      <created>1529662291131</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1529662291132</updated>
+    </task>
+    <task id="LOCAL-00004" summary="增量xls文件名修复">
+      <created>1529889441680</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1529889441680</updated>
+    </task>
+    <task id="LOCAL-00005" summary="增量xls文件名修复">
+      <created>1530270036694</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1530270036694</updated>
+    </task>
+    <task id="LOCAL-00006" summary="增量xls文件名修复">
+      <created>1530331080698</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1530331080698</updated>
+    </task>
+    <task id="LOCAL-00007" summary="增量xls文件名修复">
+      <created>1530331823871</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1530331823871</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="PathRuleServiceImplTest - 2018.06.25 at 23h 29m 00s.xml">
+      <configuration name="PathRuleServiceImplTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PathRuleServiceImplTest - 2018.06.25 at 23h 30m 19s.xml">
+      <configuration name="PathRuleServiceImplTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PathRuleServiceImplTest - 2018.06.25 at 23h 39m 16s.xml">
+      <configuration name="PathRuleServiceImplTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PathRuleServiceImplTest_pathConvert - 2018.06.25 at 23h 30m 30s.xml">
+      <configuration name="PathRuleServiceImplTest.pathConvert" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TellerUtilTest - 2018.06.25 at 09h 45m 23s.xml">
+      <configuration name="TellerUtilTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TellerUtilTest - 2018.06.25 at 09h 46m 12s.xml">
+      <configuration name="TellerUtilTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TellerUtilTest - 2018.06.25 at 09h 46m 36s.xml">
+      <configuration name="TellerUtilTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TellerUtilTest - 2018.06.29 at 20h 03m 48s.xml">
+      <configuration name="TellerUtilTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TellerUtilTest - 2018.06.29 at 20h 05m 41s.xml">
+      <configuration name="TellerUtilTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TellerUtilTest - 2018.06.29 at 21h 30m 39s.xml">
+      <configuration name="TellerUtilTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="39992000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.54340476" sideWeight="0.15182403" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20332618" sideWeight="0.46153846" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32243517" sideWeight="0.84817594" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.53846157" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2607296" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3990981" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="111" />
+    <MESSAGE value="自动生成TELLER增量app_日期.txt文件" />
+    <MESSAGE value="增量xls文件名修复" />
+    <option name="LAST_COMMIT_MESSAGE" value="增量xls文件名修复" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/dcits/patchtools/svn/util/XmlUtil.java</url>
+          <line>59</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/dcits/patchtools/svn/util/TellerUtil.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/dcits/patchtools/svn/util/TellerUtilTest.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/dcits/patchtools/svn/dao/SvnDao.java</url>
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/dcits/patchtools/svn/dao/SvnDao.java</url>
+          <line>70</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/dcits/patchtools/svn/util/FileUtil.java</url>
+          <line>199</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/dcits/patchtools/svn/service/impl/PathRuleServiceImpl.java</url>
+          <line>62</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/dcits/patchtools/svn/service/impl/PathRuleServiceImplTest.java</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="11" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>fileBlame.getSrcPath()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>logEntryList.get(logEntryList.size()-1).getRevision()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>logEntry</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>new ISVNLogEntryHandler()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="43" lean-forward="false" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/confContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="9" column="54" lean-forward="true" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/svn.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-69">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dcits/patchtools/svn/service/PathRuleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="16" column="12" lean-forward="false" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/patchRule.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="29" column="9" lean-forward="true" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dcits/patchtools/svn/util/PatchEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dcits/patchtools/svn/util/Md5Helper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dcits/patchtools/svn/util/SpringContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dcits/patchtools/svn/util/XmlUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1127">
+          <caret line="62" column="38" lean-forward="false" selection-start-line="62" selection-start-column="38" selection-end-line="62" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dcits/patchtools/svn/util/VerUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="14" column="49" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dcits/patchtools/svn/util/DateUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="84" column="26" lean-forward="false" selection-start-line="84" selection-start-column="26" selection-end-line="84" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/svn.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="23" column="29" lean-forward="false" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/dcits/patchtools/svn/service/impl/PatchServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="18" column="41" lean-forward="false" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dcits/patchtools/svn/util/ExcelUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="40" column="53" lean-forward="false" selection-start-line="40" selection-start-column="44" selection-end-line="40" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../repository/org/tmatesoft/svnkit/svnkit/1.9.0/svnkit-1.9.0.jar!/org/tmatesoft/svn/core/SVNException.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../repository/org/tmatesoft/svnkit/svnkit/1.9.0/svnkit-1.9.0.jar!/org/tmatesoft/svn/core/ISVNLogEntryHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding>
+            <marker date="1528766622672" expanded="false" signature="0:104" ph="/.../" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../repository/org/tmatesoft/svnkit/svnkit/1.9.0/svnkit-1.9.0.jar!/org/tmatesoft/svn/core/io/SVNRepository.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="246" column="148" lean-forward="false" selection-start-line="246" selection-start-column="141" selection-end-line="246" selection-end-column="148" />
+          <folding>
+            <marker date="1528766622672" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1528766622672" expanded="false" signature="149:2076" ph="..." />
+            <marker date="1528766622672" expanded="true" signature="2709:2841" ph="{...}" />
+            <marker date="1528766622672" expanded="false" signature="2874:2885" ph=" { " />
+            <marker date="1528766622672" expanded="false" signature="2908:2914" ph=" }" />
+            <marker date="1528766622672" expanded="true" signature="3000:3644" ph="{...}" />
+            <marker date="1528766622672" expanded="true" signature="3741:4491" ph="{...}" />
+            <marker date="1528766622672" expanded="true" signature="4497:4515" ph="/**...*/" />
+            <marker date="1528766622672" expanded="true" signature="4554:4715" ph="{...}" />
+            <marker date="1528766622672" expanded="true" signature="4798:4953" ph="{...}" />
+            <marker date="1528766622672" expanded="true" signature="4959:4977" ph="/**...*/" />
+            <marker date="1528766622672" expanded="true" signature="5016:5160" ph="{...}" />
+            <marker date="1528766622672" expanded="true" signature="5243:5398" ph="{...}" />
+            <marker date="1528766622672" expanded="false" signature="5479:5490" ph=" { " />
+            <marker date="1528766622672" expanded="false" signature="5523:5529" ph=" }" />
+            <marker date="1528766622672" expanded="false" signature="5594:5605" ph=" { " />
+            <marker date="1528766622672" expanded="false" signature="5631:5637" ph=" }" />
+            <marker date="1528766622672" expanded="false" signature="5707:5718" ph=" { " />
+            <marker date="1528766622672" expanded="false" signature="5757:5763" ph=" }" />
+            <marker date="1528766622672" expanded="false" signature="5814:5825" ph=" { " />
+            <marker date="1528766622672" expanded="false" signature="5854:5860" ph=" }" />
+            <marker date="1528766622672" expanded="false" signature="5915:5926" ph=" { " />
+            <marker date="1528766622672" expanded="false" signature="5955:5961" ph=" }" />
+            <marker date="1528766622672" expanded="false" signature="6002:6013" ph=" { " />
+            <marker date="1528766622672" expanded="false" signature="6085:6091" ph=" }" />
+            <marker date="1528766622672" expanded="false" signature="6157:6168" ph=" { " />
+            <marker date="1528766622672" expanded="false" signature="6205:6211" ph=" }" />
+            <marker date="1528766622672" expanded="false" signature="6258:6269" ph=" { " />
+            <marker date="1528766622672" expanded="false" signature="6296:6302" ph=" }" />
+            <marker date="1528766622672" expanded="true" signature="6377:6529" ph="{...}" />
+            <marker date="1528766622672" expanded="true" signature="7673:7768" ph="{...}" />
+            <marker date="1528766622672" expanded="true" signature="7938:8483" ph="{...}" />
+            <marker date="1528766622672" expanded="true" signature="8570:9077" ph="{...}" />
+            <marker date="1528766622672" expanded="true" signature="9249:9360" ph="{...}" />
+            <marker date="1528766622672" expanded="true" signature="9544:9681" ph="{...}" />
+            <marker date="1528766622672" expanded="true" signature="9942:10232" ph="{...}" />
+            <marker date="1528766622672" expanded="true" signature="10365:10758" ph="{...}" />
+            <marker date="1528766622672" expanded="true" signature="10921:11365" ph="{...}" />
+            <marker date="1528766622672" expanded="true" signature="11512:12745" ph="{...}" />
+            <marker date="1528766622672" expanded="false" signature="11640:11778" ph="handleLocationSegment(locationSegment) → {" />
+            <marker date="1528766622672" expanded="false" signature="11900:11915" ph="}" />
+            <marker date="1528766622672" expanded="false" signature="11951:12024" ph="compare(o1, o2) → {" />
+            <marker date="1528766622672" expanded="false" signature="12699:12714" ph="}" />
+            <marker date="1528766622672" expanded="true" signature="12873:13768" ph="{...}" />
+            <marker date="1528766622672" expanded="true" signature="13031:13658" ph="{...}" />
+            <marker date="1528766622672" expanded="true" signature="13120:13191" ph="{...}" />
+            <marker date="1528766622672" expanded="true" signature="13286:13301" ph="{}" />
+            <marker date="1528766622672" expanded="true" signature="13410:13471" ph="{...}" />
+            <marker date="1528766622672" expanded="true" signature="13544:13559" ph="{}" />
+            <marker date="1528766622672" expanded="true" signature="13633:13648" ph="{}" />
+            <marker date="1528766622672" expanded="true" signature="13896:13987" ph="{...}" />
+            <marker date="1528766622672" expanded="true" signature="14145:14550" ph="{...}" />
+            <marker date="1528766622672" expanded="false" signature="14271:14361" ph="handleDirEntry(dirEntry) → {" />
+            <marker date="1528766622672" expanded="false" signature="14422:14437" ph="}" />
+            <marker date="1528766622672" expanded="true" signature="14835:15209" ph="{...}" />
+            <marker date="1528766622672" expanded="false" signature="15000:15090" ph="handleLogEntry(logEntry) → {" />
+            <marker date="1528766622672" expanded="false" signature="15151:15166" ph="}" />
+            <marker date="1528766622672" expanded="true" signature="15335:15707" ph="{...}" />
+            <marker date="1528766622672" expanded="false" signature="15473:15583" ph="handleLocationEntry(locationEntry) → {" />
+            <marker date="1528766622672" expanded="false" signature="15649:15664" ph="}" />
+            <marker date="1528766622672" expanded="true" signature="15819:16209" ph="{...}" />
+            <marker date="1528766622672" expanded="false" signature="15950:16060" ph="handleLocationEntry(locationEntry) → {" />
+            <marker date="1528766622672" expanded="false" signature="16158:16173" ph="}" />
+            <marker date="1528766622672" expanded="true" signature="16215:16233" ph="/**...*/" />
+            <marker date="1528766622672" expanded="true" signature="16449:16594" ph="{...}" />
+            <marker date="1528766622672" expanded="true" signature="16786:16804" ph="/**...*/" />
+            <marker date="1528766622672" expanded="true" signature="16999:17137" ph="{...}" />
+            <marker date="1528766622672" expanded="true" signature="17143:17161" ph="/**...*/" />
+            <marker date="1528766622672" expanded="true" signature="17335:17467" ph="{...}" />
+            <marker date="1528766622672" expanded="true" signature="17473:17491" ph="/**...*/" />
+            <marker date="1528766622672" expanded="true" signature="17643:17745" ph="{...}" />
+            <marker date="1528766622672" expanded="true" signature="18033:18137" ph="{...}" />
+            <marker date="1528766622672" expanded="true" signature="18426:18523" ph="{...}" />
+            <marker date="1528766622672" expanded="true" signature="18772:18861" ph="{...}" />
+            <marker date="1528766622672" expanded="true" signature="18979:19948" ph="{...}" />
+            <marker date="1528766622672" expanded="false" signature="19692:19793" ph="report(reporter) → {" />
+            <marker date="1528766622672" expanded="false" signature="19917:19932" ph="}" />
+            <marker date="1528766622672" expanded="true" signature="20081:21177" ph="{...}" />
+            <marker date="1528766622672" expanded="false" signature="20208:20309" ph="report(reporter) → {" />
+            <marker date="1528766622672" expanded="false" signature="21022:21037" ph="}" />
+            <marker date="1528766622672" expanded="true" signature="21437:22134" ph="{...}" />
+            <marker date="1528766622672" expanded="true" signature="22245:22329" ph="{...}" />
+            <marker date="1528766622672" expanded="true" signature="22721:23044" ph="{...}" />
+            <marker date="1528766622672" expanded="true" signature="23505:23771" ph="{...}" />
+            <marker date="1528766622672" expanded="true" signature="24146:24283" ph="{...}" />
+            <marker date="1528766622672" expanded="false" signature="24355:24366" ph=" { " />
+            <marker date="1528766622672" expanded="false" signature="24407:24413" ph=" }" />
+            <marker date="1528766622672" expanded="true" signature="24489:24549" ph="{...}" />
+            <marker date="1528766622672" expanded="true" signature="24655:26225" ph="{...}" />
+            <marker date="1528766622672" expanded="true" signature="26357:26793" ph="{...}" />
+            <marker date="1528766622672" expanded="false" signature="26517:26679" ph="handleInheritedProperites(inheritedFromPath, properties) → {" />
+            <marker date="1528766622672" expanded="false" signature="26747:26762" ph="}" />
+            <marker date="1528766622672" expanded="true" signature="26943:29083" ph="{...}" />
+            <marker date="1528766622672" expanded="true" signature="30287:30544" ph="{...}" />
+            <marker date="1528766622672" expanded="true" signature="30588:30845" ph="{...}" />
+            <marker date="1528766622672" expanded="false" signature="30885:30896" ph=" { " />
+            <marker date="1528766622672" expanded="false" signature="30913:30919" ph=" }" />
+            <marker date="1528766622672" expanded="true" signature="30973:31791" ph="{...}" />
+            <marker date="1528766622672" expanded="true" signature="31834:32045" ph="{...}" />
+            <marker date="1528766622672" expanded="false" signature="32108:32119" ph=" { " />
+            <marker date="1528766622672" expanded="false" signature="32140:32146" ph=" }" />
+            <marker date="1528766622672" expanded="false" signature="32207:32218" ph=" { " />
+            <marker date="1528766622672" expanded="false" signature="32240:32246" ph=" }" />
+            <marker date="1528766622672" expanded="true" signature="32307:32384" ph="{...}" />
+            <marker date="1528766622672" expanded="true" signature="32467:32734" ph="{...}" />
+            <marker date="1528766622672" expanded="true" signature="32813:33500" ph="{...}" />
+            <marker date="1528766622672" expanded="true" signature="33598:34585" ph="{...}" />
+            <marker date="1528766622672" expanded="true" signature="34670:35309" ph="{...}" />
+            <marker date="1528766622672" expanded="false" signature="35356:35367" ph=" { " />
+            <marker date="1528766622672" expanded="false" signature="35389:35395" ph=" }" />
+            <marker date="1528766622672" expanded="true" signature="35435:35530" ph="{...}" />
+            <marker date="1528766622672" expanded="true" signature="35644:35913" ph="{...}" />
+            <marker date="1528766622672" expanded="true" signature="36084:37848" ph="{...}" />
+            <marker date="1528766622672" expanded="true" signature="37989:40807" ph="{...}" />
+            <marker date="1528766622672" expanded="true" signature="40953:43570" ph="{...}" />
+            <marker date="1528766622672" expanded="true" signature="43741:46513" ph="{...}" />
+            <marker date="1528766622672" expanded="true" signature="46549:46680" ph="{...}" />
+            <marker date="1528766622672" expanded="true" signature="46663:46674" ph="{}" />
+            <marker date="1528766622672" expanded="true" signature="46758:48964" ph="{...}" />
+            <marker date="1528766622672" expanded="true" signature="47166:47500" ph="{...}" />
+            <marker date="1528766622672" expanded="true" signature="47579:48958" ph="{...}" />
+            <marker date="1528766622672" expanded="true" signature="49049:51634" ph="{...}" />
+            <marker date="1528766622672" expanded="true" signature="49388:49629" ph="{...}" />
+            <marker date="1528766622672" expanded="true" signature="49708:50985" ph="{...}" />
+            <marker date="1528766622672" expanded="true" signature="51152:51628" ph="{...}" />
+            <marker date="1528766622672" expanded="true" signature="51716:52537" ph="{...}" />
+            <marker date="1528766622672" expanded="false" signature="51860:51875" ph=" { " />
+            <marker date="1528766622672" expanded="false" signature="51894:51904" ph=" }" />
+            <marker date="1528766622672" expanded="true" signature="51983:52440" ph="{...}" />
+            <marker date="1528766622672" expanded="false" signature="52482:52497" ph=" { " />
+            <marker date="1528766622672" expanded="false" signature="52521:52531" ph=" }" />
+            <marker date="1528766622672" expanded="true" signature="52621:53775" ph="{...}" />
+            <marker date="1528766622672" expanded="true" signature="52749:52834" ph="{...}" />
+            <marker date="1528766622672" expanded="true" signature="52913:53672" ph="{...}" />
+            <marker date="1528766622672" expanded="false" signature="53714:53729" ph=" { " />
+            <marker date="1528766622672" expanded="false" signature="53759:53769" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dcits/patchtools/svn/service/SvnService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="22" column="33" lean-forward="false" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dcits/patchtools/svn/model/FileModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dcits/patchtools/svn/dao/SvnDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="52" column="32" lean-forward="false" selection-start-line="52" selection-start-column="32" selection-end-line="52" selection-end-column="32" />
+          <folding>
+            <element signature="e#1702#2016#0" expanded="false" />
+            <element signature="e#2015#2016#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar!/org/apache/commons/lang3/StringUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../repository/commons-io/commons-io/2.5/commons-io-2.5.jar!/org/apache/commons/io/FileUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10533">
+          <caret line="489" column="26" lean-forward="false" selection-start-line="489" selection-start-column="19" selection-end-line="489" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar!/org/apache/commons/lang3/reflect/FieldUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1035">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../repository/commons-io/commons-io/2.5/commons-io-2.5.jar!/org/apache/commons/io/IOUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-18285">
+          <caret line="47" column="59" lean-forward="true" selection-start-line="47" selection-start-column="59" selection-end-line="47" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dcits/patchtools/svn/model/FileBlame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../repository/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/BlockJUnit4ClassRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../repository/junit/junit/4.12/junit-4.12.jar!/org/junit/runner/JUnitCore.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="76" column="0" lean-forward="false" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../repository/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="242" column="61" lean-forward="true" selection-start-line="242" selection-start-column="61" selection-end-line="242" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../repository/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../repository/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/statements/RunBefores.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../repository/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/statements/InvokeMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../repository/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dcits/patchtools/svn/service/impl/SvnServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-630">
+          <caret line="42" column="62" lean-forward="false" selection-start-line="42" selection-start-column="62" selection-end-line="42" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/dcits/patchtools/svn/util/TellerUtilTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="28" column="44" lean-forward="false" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../repository/org/springframework/spring-beans/4.3.11.RELEASE/spring-beans-4.3.11.RELEASE.jar!/org/springframework/beans/factory/config/YamlMapFactoryBean.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/patchRule.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="10" lean-forward="false" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dcits/patchtools/svn/service/impl/PathRuleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="171" column="52" lean-forward="false" selection-start-line="171" selection-start-column="41" selection-end-line="171" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/dcits/patchtools/svn/util/YamlTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="34" column="32" lean-forward="false" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/svn.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="27" column="26" lean-forward="false" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dcits/patchtools/svn/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-184">
+          <caret line="39" column="66" lean-forward="false" selection-start-line="39" selection-start-column="66" selection-end-line="39" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dcits/patchtools/svn/PatchHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="53" column="21" lean-forward="false" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dcits/patchtools/svn/service/PatchService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/dcits/patchtools/svn/service/impl/PathRuleServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dcits/patchtools/svn/service/impl/PatchServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="126" column="68" lean-forward="false" selection-start-line="126" selection-start-column="62" selection-end-line="126" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/patchRule.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="23" column="11" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dcits/patchtools/svn/util/YamlHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="38" column="62" lean-forward="false" selection-start-line="38" selection-start-column="52" selection-end-line="38" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dcits/patchtools/svn/util/FileUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="225" column="25" lean-forward="true" selection-start-line="225" selection-start-column="25" selection-end-line="225" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dcits/patchtools/svn/util/TellerUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="68" column="48" lean-forward="false" selection-start-line="68" selection-start-column="48" selection-end-line="68" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

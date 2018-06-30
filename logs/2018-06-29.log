@@ -1,0 +1,6 @@
+2018-06-29 20:03:47.648 [main] INFO  com.dcits.patchtools.svn.util.TellerUtil - fileFullName:d://app_20180629.txt
+2018-06-29 20:03:47.652 [main] INFO  com.dcits.patchtools.svn.util.TellerUtil - 解析后清单数目: 2
+2018-06-29 20:05:41.379 [main] INFO  com.dcits.patchtools.svn.util.TellerUtil - fileFullName:d://app_20180629.txt
+2018-06-29 20:05:41.384 [main] INFO  com.dcits.patchtools.svn.util.TellerUtil - 解析后清单数目: 2
+2018-06-29 21:30:39.474 [main] INFO  com.dcits.patchtools.svn.util.TellerUtil - fileFullName:d://app_20180629.txt
+2018-06-29 21:30:39.478 [main] INFO  com.dcits.patchtools.svn.util.TellerUtil - 解析后清单数目: 2
