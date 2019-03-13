@@ -13,6 +13,9 @@ import java.io.FileOutputStream;
 import java.io.OutputStreamWriter;
 import java.util.*;
 
+/**
+ *
+ */
 public class TellerUtil {
     private static final Logger logger = LoggerFactory.getLogger(TellerUtil.class);
     private static final String tl0="/SmartEnsemble15_CQBANK/Ensemble/Project/trunk/modelBank-teller/SmartTeller9/function/3D/3252/config";
@@ -28,15 +31,23 @@ public class TellerUtil {
             if(model.getSrcPath().indexOf(tl1)>0){
                 logger.info("patchFileReader_1: " +model.getSrcPath());
                 String[] arrName=model.getSrcPath().split("/");
-                strName = "SmartTeller9\\trans\\"+arrName[8]+"\\"+arrName[9]+".jar";
+                if(arrName[8].indexOf("OC")>=0){
+                    strName = "SmartTeller9\\trans\\"+"OC.jar";
+                }else if(arrName[8].indexOf("QUEUE")>=0) {
+                    logger.info("patchFileReader_1.1 过滤QUEUE路径");
+                }else if(arrName[8].indexOf("JZ")>=0) {
+                    logger.info("patchFileReader_1.1 过滤JZ路径");
+                }else{
+                    strName = "SmartTeller9\\trans\\"+arrName[8]+"\\"+arrName[9]+".jar";
+                }
             }
-
+/*
             if(model.getSrcPath().indexOf(tl2)>0){
                 logger.info("patchFileReader_2: " +model.getSrcPath());
                 String strNametmp=model.getSrcPath().substring(model.getSrcPath().indexOf(tl2));
                 strNametmp=strNametmp.replaceFirst("/frame_work/","/");
                 strName = strNametmp.replace("/","\\");
-            }
+            }*/
             logger.info("patchFileReader_3: " +strName);
             if(!deletelist(strName,filepath)){
                 //如果不在删除清单则抽取
@@ -73,7 +84,7 @@ public class TellerUtil {
                 return true;
             }else{
                 logger.info("patchFileReader_deletelist2: " +list);
-                return false;
+                continue;
             }
 
         }
