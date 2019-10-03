@@ -7,8 +7,8 @@ import java.util.regex.Pattern;
 
 public class ChlFileDeal {
     public static void main(String[] args) {
-        //genChlFile(args[0], args[1]);
-       genChlFile("d:\\1.txt~", "1");
+        genChlFile(args[0], args[1]);
+       //genChlFile("d:\\1.txt~", "1");
        /* String reg="(09[0-9]{4}|[1-9]{1}[0-9]{5}).jar";
         String lineTxt="ffffffff\\ffff\\090123.jar";
         String lineTxt2="ffffffff\\ffff\\070123.jar";
