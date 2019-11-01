@@ -29,16 +29,19 @@ public class TellerUtil {
         String strName="";
         for (FileBlame model : list) {
             if(model.getSrcPath().indexOf(tl1)>0){
+                String realStr = model.getSrcPath().split("SmartTeller9/function")[1];
+
                 logger.info("patchFileReader_1: " +model.getSrcPath());
-                String[] arrName=model.getSrcPath().split("/");
-                if(arrName[8].indexOf("OC")>=0){
+                //String[] arrName=model.getSrcPath().split("/");
+                String[] arrName = realStr.split("/");
+                if(arrName[1].indexOf("OC")>=0){
                     strName = "SmartTeller9\\trans\\"+"OC.jar";
-                }else if(arrName[8].indexOf("QUEUE")>=0) {
+                }else if(arrName[1].indexOf("QUEUE")>=0) {
                     logger.info("patchFileReader_1.1 过滤QUEUE路径");
-                }else if(arrName[8].indexOf("JZ")>=0) {
+                }else if(arrName[1].indexOf("JZ")>=0) {
                     logger.info("patchFileReader_1.1 过滤JZ路径");
                 }else{
-                    strName = "SmartTeller9\\trans\\"+arrName[8]+"\\"+arrName[9]+".jar";
+                    strName = "SmartTeller9\\trans\\"+arrName[1]+"\\"+arrName[2]+".jar";
                 }
             }
 /*
@@ -90,5 +93,4 @@ public class TellerUtil {
         }
         return false;
     }
-
 }
