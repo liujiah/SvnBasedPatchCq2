@@ -29,7 +29,9 @@ public class ChlFileDeal {
             String lineTxt=null;
             while ((lineTxt=br.readLine())!=null){
                 String reg="(09[0-9]{4}|[1-9]{1}[0-9]{5}).jar";
+                String msg="SmartTeller9\\trans";
                 boolean bn=lineTxt.substring(lineTxt.length()-10).matches(reg);
+                int num=lineTxt.indexOf(msg);
                 if(bn) {
                     if (chl.equals("1")) {
                         //导出渠道交易

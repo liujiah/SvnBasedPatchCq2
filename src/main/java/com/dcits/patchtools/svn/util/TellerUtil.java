@@ -41,7 +41,11 @@ public class TellerUtil {
                 }else if(arrName[1].indexOf("JZ")>=0) {
                     logger.info("patchFileReader_1.1 过滤JZ路径");
                 }else{
-                    strName = "SmartTeller9\\trans\\"+arrName[1]+"\\"+arrName[2]+".jar";
+                    if(arrName.length>=3) {
+                        strName = "SmartTeller9\\trans\\" + arrName[1] + "\\" + arrName[2] + ".jar";
+                    }else {
+                        logger.info("patchFileReader_9: " +strName);
+                    }
                 }
             }
 /*
